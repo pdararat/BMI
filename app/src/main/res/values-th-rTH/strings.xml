@@ -3,4 +3,7 @@
     <string name="app_name">BMI</string>
     <string name="start">เริ่ม</string>
     <string name="exit">สิ้นสุด</string>
+    <string name="calculate">คำนวณ</string>
+    <string name="height">สูง</string>
+    <string name="weight">น้ำหนัก</string>
 </resources>

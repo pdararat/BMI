@@ -2,4 +2,7 @@
     <string name="app_name">BMI</string>
     <string name="start">start</string>
     <string name="exit">exit</string>
+    <string name="calculate">calculate</string>
+    <string name="height">height(cm.)</string>
+    <string name="weight">weight(kg.)</string>
 </resources>

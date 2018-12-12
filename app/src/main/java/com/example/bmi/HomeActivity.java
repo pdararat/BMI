@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity {
                 String massage = "Hello" ;
                 Toast t = Toast.makeText(HomeActivity.this,massage,Toast.LENGTH_SHORT);
                 t.show();
-                Intent i = new Intent(HomeActivity.this,Calculate.class);
+                Intent i = new Intent(HomeActivity.this,.class);
                 startActivity(i);
             }
         });
