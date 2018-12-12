@@ -14,18 +14,18 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button start = findViewById(R.id.start_button);
+        Button start = findViewById(R.id.start);
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String massage = "Hello" ;
+                String massage = "เริ่มต้น" ;
                 Toast t = Toast.makeText(HomeActivity.this,massage,Toast.LENGTH_SHORT);
                 t.show();
-                Intent i = new Intent(HomeActivity.this,.class);
+                Intent i = new Intent(HomeActivity.this,main1.class);
                 startActivity(i);
             }
         });
-        Button exit = findViewById(R.id.Exit_button);
+        Button exit = findViewById(R.id.exit);
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
